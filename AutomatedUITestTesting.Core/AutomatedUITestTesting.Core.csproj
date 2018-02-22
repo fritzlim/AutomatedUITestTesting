@@ -4,4 +4,20 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="App.xaml" />
+    <None Remove="AutomatedUITestTestingPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App.xaml" />
+    <EmbeddedResource Include="AutomatedUITestTestingPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="AutomatedUITestTestingPage.xaml.cs">
+      <DependentUpon>AutomatedUITestTestingPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

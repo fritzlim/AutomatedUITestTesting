@@ -9,12 +9,12 @@
     <None Remove="AutomatedUITestTestingPage.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AutomatedUITestTestingPage.xaml" />
+    <EmbeddedResource Remove="App.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
+    <Compile Remove="App.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Update="AutomatedUITestTestingPage.xaml.cs">
       <DependentUpon>AutomatedUITestTestingPage.xaml</DependentUpon>
     </Compile>

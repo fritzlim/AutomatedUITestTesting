@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITestTesting.Droi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITestTesting.UITests", "UITests\AutomatedUITestTesting.UITests.csproj", "{9913CD0B-018E-490C-B568-6399E5757087}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITestTesting.Core", "AutomatedUITestTesting.Core\AutomatedUITestTesting.Core.csproj", "{23A7186D-86DC-4947-839E-8BA49E49D00B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,5 +69,17 @@ Global
 		{9913CD0B-018E-490C-B568-6399E5757087}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{9913CD0B-018E-490C-B568-6399E5757087}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{9913CD0B-018E-490C-B568-6399E5757087}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Release|iPhone.Build.0 = Release|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{23A7186D-86DC-4947-839E-8BA49E49D00B}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

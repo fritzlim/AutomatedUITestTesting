@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITestTesting.Droi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITestTesting.UITests", "UITests\AutomatedUITestTesting.UITests.csproj", "{9913CD0B-018E-490C-B568-6399E5757087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITestTesting.Core", "AutomatedUITestTesting.Core\AutomatedUITestTesting.Core.csproj", "{23A7186D-86DC-4947-839E-8BA49E49D00B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITestTesting", "AutomatedUITestTesting.Core\AutomatedUITestTesting.csproj", "{23A7186D-86DC-4947-839E-8BA49E49D00B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

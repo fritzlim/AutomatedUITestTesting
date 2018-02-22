@@ -9,7 +9,6 @@
     <None Remove="AutomatedUITestTestingPage.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="AutomatedUITestTestingPage.xaml" />
   </ItemGroup>
   <ItemGroup>

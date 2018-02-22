@@ -99,12 +99,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutomatedUITestTesting\AutomatedUITestTesting.csproj">
-      <Project>{B46F839D-1491-4F2E-AB90-7692E6939924}</Project>
-      <Name>AutomatedUITestTesting</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
   </ItemGroup>
